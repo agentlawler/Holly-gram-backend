@@ -12,7 +12,7 @@ app.use(cors())
 app.use(logger('dev'))
 app.use(express.json())
 
-//ROUTES GO HERE
+
 app.use('/auth', AuthRoute)
 app.use('/feed', PostRoute)
 
